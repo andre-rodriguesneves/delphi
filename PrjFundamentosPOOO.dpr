@@ -2,7 +2,8 @@ program PrjFundamentosPOOO;
 
 uses
   Vcl.Forms,
-  uPrincipal in 'uPrincipal.pas' {Form1};
+  uPrincipal in 'uPrincipal.pas' {Form1},
+  uModel in 'uModel.pas';
 
 {$R *.res}
 
