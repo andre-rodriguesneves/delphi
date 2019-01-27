@@ -11,7 +11,7 @@ type
   published
     property Nome: String read FNome write SetNome;
   public
-    procedure Validar;
+    procedure Validar; virtual ;
 
   end;
 
@@ -22,7 +22,7 @@ type
   published
     property CPF: String read FCPF write SetCPF;
   public
-    procedure Validar;
+    procedure Validar; override ;
   end;
 
   TCliente = class(TPessoaFisica)
@@ -32,7 +32,7 @@ type
   published
        property FLimite : Double read FFLimite write SetFLimite;
     public
-    procedure Validar;
+    procedure Validar; override ;
   end;
 
 implementation
